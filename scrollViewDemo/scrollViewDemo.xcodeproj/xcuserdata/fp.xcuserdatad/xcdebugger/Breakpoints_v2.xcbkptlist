@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "scrollViewDemo/ViewController.swift"
+            timestampString = "475011483.869534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "loadView()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "scrollViewDemo.ViewController.plusButton.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "scrollViewDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fp/_Data/Areas/__Dev/Sandbox%20Workspaces/XcodeWorkspace/scrollViewDemo/scrollViewDemo/ViewController.swift"
+                  timestampString = "474932346.422555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "scrollViewDemo.ViewController.plusButton.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "scrollViewDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fp/_Data/Areas/__Dev/Sandbox%20Workspaces/XcodeWorkspace/scrollViewDemo/scrollViewDemo/ViewController.swift"
+                  timestampString = "474932346.422776"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "scrollViewDemo.ViewController.plusButton.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "scrollViewDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fp/_Data/Areas/__Dev/Sandbox%20Workspaces/XcodeWorkspace/scrollViewDemo/scrollViewDemo/ViewController.swift"
+                  timestampString = "474932346.422941"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "scrollViewDemo.ViewController.init (scrollViewDemo.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; scrollViewDemo.ViewController"
+                  moduleName = "scrollViewDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fp/_Data/Areas/__Dev/Sandbox%20Workspaces/XcodeWorkspace/scrollViewDemo/scrollViewDemo/ViewController.swift"
+                  timestampString = "474932346.423099"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "115">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "scrollViewDemo.ViewController.init (scrollViewDemo.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;scrollViewDemo.ViewController&gt;"
+                  moduleName = "scrollViewDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fp/_Data/Areas/__Dev/Sandbox%20Workspaces/XcodeWorkspace/scrollViewDemo/scrollViewDemo/ViewController.swift"
+                  timestampString = "474932346.423256"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "77">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "scrollViewDemo/ViewController.swift"
+            timestampString = "475020943.592073"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "scrollViewDemo/ViewController.swift"
+            timestampString = "475020943.592073"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "viewDidLayoutSubviews()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

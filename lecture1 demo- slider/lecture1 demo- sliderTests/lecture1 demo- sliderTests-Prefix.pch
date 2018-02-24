@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'lecture1 demo- sliderTests' target in the 'lecture1 demo- sliderTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

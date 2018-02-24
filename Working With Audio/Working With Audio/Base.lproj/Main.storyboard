@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Working_With_Audio" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GR4-v6-ht4">
+                                <rect key="frame" x="285" y="152" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="MMX-t9-Oao"/>
+                                    <constraint firstAttribute="width" constant="30" id="hbo-ni-GUc"/>
+                                </constraints>
+                                <state key="normal" title="play"/>
+                                <connections>
+                                    <action selector="playButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r3M-2H-cOk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3l9-aq-cqc">
+                                <rect key="frame" x="279" y="213" width="42" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="7FJ-uD-MyR"/>
+                                    <constraint firstAttribute="height" constant="30" id="9KZ-0e-8kx"/>
+                                </constraints>
+                                <state key="normal" title="pause"/>
+                                <connections>
+                                    <action selector="pauseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rcb-Dg-zo0"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="P6h-9I-aAC">
+                                <rect key="frame" x="241" y="285" width="118" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="pzO-yd-nMY"/>
+                                    <constraint firstAttribute="height" constant="30" id="uwP-CT-ofQ"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="adjustVolume:" destination="BYZ-38-t0r" eventType="valueChanged" id="l9U-JW-B01"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Working With Audio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INe-Vn-sHW">
+                                <rect key="frame" x="101" y="51" width="399" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="1Sb-F7-z6B"/>
+                                    <constraint firstAttribute="width" constant="399" id="5Hf-a2-TOM"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="31" id="9yo-Zc-XzV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="INe-Vn-sHW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="31" id="0YY-5z-wBc"/>
+                            <constraint firstItem="GR4-v6-ht4" firstAttribute="top" secondItem="INe-Vn-sHW" secondAttribute="bottom" constant="70" id="C5d-4e-9UZ"/>
+                            <constraint firstItem="P6h-9I-aAC" firstAttribute="top" secondItem="3l9-aq-cqc" secondAttribute="bottom" constant="42" id="FqL-8d-Zqr"/>
+                            <constraint firstItem="P6h-9I-aAC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KhJ-2J-BbL"/>
+                            <constraint firstItem="3l9-aq-cqc" firstAttribute="top" secondItem="GR4-v6-ht4" secondAttribute="bottom" constant="31" id="Thm-QL-JzA"/>
+                            <constraint firstItem="INe-Vn-sHW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bTo-qG-Fef"/>
+                            <constraint firstItem="GR4-v6-ht4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="url-Mm-GBN"/>
+                            <constraint firstItem="3l9-aq-cqc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vUq-au-yHc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="P6h-9I-aAC" id="Z4s-bL-mba"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="389"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="15R-hm-lye">
+            <objects>
+                <viewController id="MQ8-FQ-yfG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Np0-36-HWB"/>
+                        <viewControllerLayoutGuide type="bottom" id="CXU-sg-70U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M3U-0A-eqo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mze-w9-6ac" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

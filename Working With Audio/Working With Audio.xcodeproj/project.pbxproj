@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E49305B31B86CE23003DC06F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49305B21B86CE23003DC06F /* AppDelegate.swift */; };
+		E49305B51B86CE23003DC06F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49305B41B86CE23003DC06F /* ViewController.swift */; };
+		E49305B81B86CE23003DC06F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49305B61B86CE23003DC06F /* Main.storyboard */; };
+		E49305BA1B86CE23003DC06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49305B91B86CE23003DC06F /* Assets.xcassets */; };
+		E49305BD1B86CE23003DC06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49305BB1B86CE23003DC06F /* LaunchScreen.storyboard */; };
+		E49305C51B86CE7C003DC06F /* alanWatts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E49305C41B86CE7C003DC06F /* alanWatts.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E49305AF1B86CE23003DC06F /* Working With Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Working With Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49305B21B86CE23003DC06F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E49305B41B86CE23003DC06F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E49305B71B86CE23003DC06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E49305B91B86CE23003DC06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E49305BC1B86CE23003DC06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E49305BE1B86CE23003DC06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49305C41B86CE7C003DC06F /* alanWatts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alanWatts.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E49305AC1B86CE23003DC06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E49305A61B86CE23003DC06F = {
+			isa = PBXGroup;
+			children = (
+				E49305B11B86CE23003DC06F /* Working With Audio */,
+				E49305B01B86CE23003DC06F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E49305B01B86CE23003DC06F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E49305AF1B86CE23003DC06F /* Working With Audio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E49305B11B86CE23003DC06F /* Working With Audio */ = {
+			isa = PBXGroup;
+			children = (
+				E49305B21B86CE23003DC06F /* AppDelegate.swift */,
+				E49305B41B86CE23003DC06F /* ViewController.swift */,
+				E49305B61B86CE23003DC06F /* Main.storyboard */,
+				E49305C41B86CE7C003DC06F /* alanWatts.mp3 */,
+				E49305B91B86CE23003DC06F /* Assets.xcassets */,
+				E49305BB1B86CE23003DC06F /* LaunchScreen.storyboard */,
+				E49305BE1B86CE23003DC06F /* Info.plist */,
+			);
+			path = "Working With Audio";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E49305AE1B86CE23003DC06F /* Working With Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49305C11B86CE23003DC06F /* Build configuration list for PBXNativeTarget "Working With Audio" */;
+			buildPhases = (
+				E49305AB1B86CE23003DC06F /* Sources */,
+				E49305AC1B86CE23003DC06F /* Frameworks */,
+				E49305AD1B86CE23003DC06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Working With Audio";
+			productName = "Working With Audio";
+			productReference = E49305AF1B86CE23003DC06F /* Working With Audio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E49305A71B86CE23003DC06F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HologramPacific;
+				TargetAttributes = {
+					E49305AE1B86CE23003DC06F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E49305AA1B86CE23003DC06F /* Build configuration list for PBXProject "Working With Audio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E49305A61B86CE23003DC06F;
+			productRefGroup = E49305B01B86CE23003DC06F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E49305AE1B86CE23003DC06F /* Working With Audio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E49305AD1B86CE23003DC06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49305BD1B86CE23003DC06F /* LaunchScreen.storyboard in Resources */,
+				E49305BA1B86CE23003DC06F /* Assets.xcassets in Resources */,
+				E49305C51B86CE7C003DC06F /* alanWatts.mp3 in Resources */,
+				E49305B81B86CE23003DC06F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E49305AB1B86CE23003DC06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49305B51B86CE23003DC06F /* ViewController.swift in Sources */,
+				E49305B31B86CE23003DC06F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E49305B61B86CE23003DC06F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49305B71B86CE23003DC06F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E49305BB1B86CE23003DC06F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49305BC1B86CE23003DC06F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E49305BF1B86CE23003DC06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E49305C01B86CE23003DC06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E49305C21B86CE23003DC06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Working With Audio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.Working-With-Audio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E49305C31B86CE23003DC06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Working With Audio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.Working-With-Audio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E49305AA1B86CE23003DC06F /* Build configuration list for PBXProject "Working With Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49305BF1B86CE23003DC06F /* Debug */,
+				E49305C01B86CE23003DC06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49305C11B86CE23003DC06F /* Build configuration list for PBXNativeTarget "Working With Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49305C21B86CE23003DC06F /* Debug */,
+				E49305C31B86CE23003DC06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E49305A71B86CE23003DC06F /* Project object */;
+}
