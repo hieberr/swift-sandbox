@@ -1,13 +1,15 @@
 # swift-sandbox
 Examples and demos using Swift
 
-##Overview
+
+## Overview
 
 This repository contains examples and demos that I have created to learn basic swift functionality. 
 Most of these examples I created in preparation for the PhonemeKey keyboard project which began in 2016.  
 Unfortunately, many of these projects were created with Swift 2.x and no longer run or migrate with the most recent version of XCode. None of these projects are really worth the effort of installing XCode 8 and migrating and are here for archival purposes.
 
-##Notable Projects
+
+## Notable Projects
 
 [Custom Keyboard](https://github.com/hieberr/swift-sandbox/tree/master/Custom%20Keyboard) - A bare bones 3rd party keyboard extension with a button that plays a sound. 
 
