@@ -1,10 +1,12 @@
 # swift-sandbox
 Examples and demos using Swift
 
+##Overview
 This repository contains examples and demos that I have created to learn basic swift functionality. 
-Most of these examples I created preperation for the PhonemeKey keyboard project which began in 2016.  
+Most of these examples I created in preparation for the PhonemeKey keyboard project which began in 2016.  
 Unfortunately, many of these projects were created with Swift 2.x and no longer run or migrate with the most recent version of XCode. None of these projects are really worth the effort of installing XCode 8 and migrating and are here for archival purposes.
 
+##Notable Projects
 [Custom Keyboard](https://github.com/hieberr/swift-sandbox/tree/master/Custom%20Keyboard) - A bare bones 3rd party keyboard extension with a button that plays a sound. 
 
 [PopoverViewTutorial](https://github.com/hieberr/swift-sandbox/tree/master/PopoverViewTutorial) - An example of creating a view that temporarily pops up. We needed this to display phonemes as they were typed similar to how the stock keyboard displays each key as you type it.
