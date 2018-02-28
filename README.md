@@ -10,7 +10,7 @@ Unfortunately, many of these projects were created with Swift 2.x and no longer 
 
 
 ## Notable Projects
-[MVVM demo] (https://github.com/hieberr/swift-sandbox/tree/master/DesignPatterns-MvvmDemo/DesignPatterns-MvvmDemo) - A simple app which demonstrates using a ViewModel class to stand between the Model and the ViewController. This is a simple example, but the the more comples MVVM approach is best used for more complicated user interfaces where it is useful to decouple viewController and the Model classes. This approach allows you to unit test the ViewModel functionality which would otherwise be difficult to unit test.
+[MVVM demo](https://github.com/hieberr/swift-sandbox/tree/master/DesignPatterns-MvvmDemo/DesignPatterns-MvvmDemo) - A simple app which demonstrates using a ViewModel class to stand between the Model and the ViewController. This is a simple example, but the the more complex MVVM approach is best used for more complicated user interfaces where it is useful to decouple viewController and the Model classes. This approach allows you to unit test the ViewModel functionality which would otherwise be difficult.  This also makes it easier to swap out the Model, or Swap out the ViewController/View with a new implementation.
 
 [Custom Keyboard (Swift2.0)](https://github.com/hieberr/swift-sandbox/tree/master/Swift2.0/Custom%20Keyboard) - A bare bones 3rd party keyboard extension with a button that plays a sound. 
 
