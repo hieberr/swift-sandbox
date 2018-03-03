@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E49736462046071F00C93791 /* DesignPatterns-MvvmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPatterns-MvvmDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49736462046071F00C93791 /* ArchitecturalPatterns-MvvmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArchitecturalPatterns-MvvmDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49736492046071F00C93791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E497364B2046071F00C93791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E497364E2046071F00C93791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		E497363D2046071F00C93791 = {
 			isa = PBXGroup;
 			children = (
-				E49736482046071F00C93791 /* DesignPatterns-MvvmDemo */,
+				E49736482046071F00C93791 /* ArchitecturalPatterns-MvvmDemo */,
 				E49736472046071F00C93791 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		E49736472046071F00C93791 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E49736462046071F00C93791 /* DesignPatterns-MvvmDemo.app */,
+				E49736462046071F00C93791 /* ArchitecturalPatterns-MvvmDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E49736482046071F00C93791 /* DesignPatterns-MvvmDemo */ = {
+		E49736482046071F00C93791 /* ArchitecturalPatterns-MvvmDemo */ = {
 			isa = PBXGroup;
 			children = (
 				E497365F2046289400C93791 /* Model */,
@@ -69,7 +69,7 @@
 				E49736552046071F00C93791 /* Info.plist */,
 				E497365B204626FB00C93791 /* ViewModel.swift */,
 			);
-			path = "DesignPatterns-MvvmDemo";
+			path = "ArchitecturalPatterns-MvvmDemo";
 			sourceTree = "<group>";
 		};
 		E497365F2046289400C93791 /* Model */ = {
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E49736452046071F00C93791 /* DesignPatterns-MvvmDemo */ = {
+		E49736452046071F00C93791 /* ArchitecturalPatterns-MvvmDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E49736582046071F00C93791 /* Build configuration list for PBXNativeTarget "DesignPatterns-MvvmDemo" */;
+			buildConfigurationList = E49736582046071F00C93791 /* Build configuration list for PBXNativeTarget "ArchitecturalPatterns-MvvmDemo" */;
 			buildPhases = (
 				E49736422046071F00C93791 /* Sources */,
 				E49736432046071F00C93791 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "DesignPatterns-MvvmDemo";
+			name = "ArchitecturalPatterns-MvvmDemo";
 			productName = "DesignPatterns-MvvmDemo";
-			productReference = E49736462046071F00C93791 /* DesignPatterns-MvvmDemo.app */;
+			productReference = E49736462046071F00C93791 /* ArchitecturalPatterns-MvvmDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E49736412046071F00C93791 /* Build configuration list for PBXProject "DesignPatterns-MvvmDemo" */;
+			buildConfigurationList = E49736412046071F00C93791 /* Build configuration list for PBXProject "ArchitecturalPatterns-MvvmDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E49736452046071F00C93791 /* DesignPatterns-MvvmDemo */,
+				E49736452046071F00C93791 /* ArchitecturalPatterns-MvvmDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -296,9 +296,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24A68S5EUR;
-				INFOPLIST_FILE = "DesignPatterns-MvvmDemo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ArchitecturalPatterns-MvvmDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.DesignPatterns-MvvmDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.ArchitecturalPatterns-MvvmDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,9 +311,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24A68S5EUR;
-				INFOPLIST_FILE = "DesignPatterns-MvvmDemo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ArchitecturalPatterns-MvvmDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.DesignPatterns-MvvmDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hologrampacific.ArchitecturalPatterns-MvvmDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E49736412046071F00C93791 /* Build configuration list for PBXProject "DesignPatterns-MvvmDemo" */ = {
+		E49736412046071F00C93791 /* Build configuration list for PBXProject "ArchitecturalPatterns-MvvmDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E49736562046071F00C93791 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E49736582046071F00C93791 /* Build configuration list for PBXNativeTarget "DesignPatterns-MvvmDemo" */ = {
+		E49736582046071F00C93791 /* Build configuration list for PBXNativeTarget "ArchitecturalPatterns-MvvmDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E49736592046071F00C93791 /* Debug */,
