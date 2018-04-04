@@ -2,7 +2,7 @@
 Examples and demos using Swift
 
 
-## Overview
+## Overview 
 
 This repository contains examples and demos that I have created to learn basic swift functionality. 
 Most of these examples I created in preparation for the PhonemeKey keyboard project which began in 2016.  
